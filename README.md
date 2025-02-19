@@ -68,5 +68,5 @@ npm install draft-js
 ```
 
 ## Author
-Developed by [Your Name] as part of the upliance.ai Associate Software Developer assignment.
+Developed by Chintha Venu Gopal as part of the upliance.ai Associate Software Developer assignment.
 
