@@ -53,19 +53,7 @@ This project is a React-based web application developed as part of the upliance.
   ├── index.tsx
 ```
 
-## Troubleshooting
-### Chart.js Issue (`category is not a registered scale`)
-Ensure `Chart.js` is correctly registered in `Dashboard.tsx`:
-```tsx
-import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from "chart.js";
-ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
-```
 
-### Rich Text Editor Not Showing
-Make sure `draft-js` is installed:
-```sh
-npm install draft-js
-```
 
 ## Author
 Developed by Chintha Venu Gopal as part of the upliance.ai Associate Software Developer assignment.
